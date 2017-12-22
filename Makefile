@@ -3,25 +3,19 @@
 # 
 #===============================================================================
 
-#############
-#directories:   ( have to been adjusted to machines file structure )
-#############
-SUBROU = ../SUBROU
-
 ###########
 #compilers:
 ###########
 CXX = g++
 CC = gcc
 
-################
-#optional flags
-################
+#Input format of the CFLP data file
 
 #INPUT_FORMAT =CFL_AVELLA
 #INPUT_FORMAT =CFL_ORLIB
 INPUT_FORMAT=CFL_KLOSE
 
+# Correspond the rows of cost matrix to customers or depots?
 MATRIX = CFL_MATRIX_ROW_CUST_FORMAT
 #MATRIX=CFL_MATRIX_ROW_DEPOT_FORMAT
 
