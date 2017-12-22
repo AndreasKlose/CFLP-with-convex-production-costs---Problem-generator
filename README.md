@@ -18,5 +18,5 @@ The cost data is appended to the data of the linear CFLP and all output send to 
 
 # Requires
 
-Data or the data generator for the linear CFLP instances (cf. https://github.com/AndreasKlose/CFLP-Instance-Generator)
+Data or the data generator for the linear CFLP instances (cf. https://github.com/AndreasKlose/CFLP-Generator)
 
