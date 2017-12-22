@@ -16,4 +16,7 @@ In the first case, a quadratic cost function of the type $h(u) = a + b*u^2$ is g
 In the second case, an inverse cost function of type $h(u) = b/(s-u)$ is created, where s is a depot's capacity.
 The cost data is appended to the data of the linear CFLP and all output send to the terminal.
 
+# Requires
+
+Data or the data generator for the linear CFLP instances (cf. https://github.com/AndreasKlose/CFLP-Instance-Generator)
 
