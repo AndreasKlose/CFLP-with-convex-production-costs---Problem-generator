@@ -45,7 +45,7 @@ qcoeff: QuadCoeff.o CFLrdlp.o
 QuadCoeff.o: QuadCoeff.cpp
 	$(COMPILE.C) $< -o $@ 
 
-CFLrdlp.o: $(SUBROU)/CFLrdlp.c
+CFLrdlp.o: CFLrdlp.c
 	$(COMPILE.c) $< -o $@
 
 clean-o:
